@@ -1,0 +1,27 @@
+{
+  "name": "mvc-basic-concept",
+  "version": "1.0.0",
+  "description": "mvc basic",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heisgaze/mvc-basic-concept.git"
+  },
+  "author": "Galang Rizky",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heisgaze/mvc-basic-concept/issues"
+  },
+  "homepage": "https://github.com/heisgaze/mvc-basic-concept#readme",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}

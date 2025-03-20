@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MVC | Latihan Express</title>
+</head>
+<body>
+    <h1>ini all user</h1>
+    <% userList.forEach(user => { %>
+        <li>
+            ID: <%= user.id %> - Nama: <%= user.nama %>
+        </li>
+    <% }); %>
+</body>
+</html>
